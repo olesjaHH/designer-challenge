@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+/* Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000 */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif; 
+    width: 100%;
+    color: #0b0c17 ;
+}
+
+/* -------------Header------------------------------- */
+
+header {
+    background: url(../img/ilustracion1.png) no-repeat;
+    background-position: right top;
+    background-size: 60% 70%;
+    height: 100vh;
+}
+#logo {
+    display: flex;
+    align-self: flex-start;
+    font-size: .5rem;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+#logo a {
+    width: 1.8rem;
+    margin-left: .7rem;
+    position: fixed;
+    top: 1.8rem;
+    left: auto;
+}
+#logo span {
+    display: block;
+    font-size: .6rem;
+    padding-left: .1rem;
+}
+#logo h2 {
+    margin-left: 2.9rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.designer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 15%;
+   
+}
+.designer h1 {
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+.designer p img {
+    width: 1.5rem;
+}
+.designer p {
+    font-size: 1.2rem;
+}
+.designer a {
+    color: #ff3571;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-top: 30%;
+    margin-bottom: 20%;
+}
+.man {
+    position: relative;
+    width: 133%;
+    bottom: 820px;
+    left: 520px;
+    animation-name: fly;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes fly {
+        from {
+          bottom: 820px;
+        }
+        to {
+          bottom: 780px;
+        }
+      }
+/* ---------------------------Main-------------------------- */
+
+#pictureGallery img {
+    width: 100%;
+    height: 60vh;
+}
+
+.blockOne {
+    display: flex;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.blockOne h1 {
+    width: 25%;
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-left: 10%;
+}
+.blockOne span img {
+    width: 3.5rem;
+}
+.blockOne p {
+    width: 40%;
+    line-height: 1.7rem;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.blockTwo {
+    font-size: 2.5rem;
+    width: 55%;
+    margin-left: 10%;
+}
+
+.blockThree {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.smallArticle img {
+    width: 2rem;
+    position: absolute;
+}
+.div {
+    width: 65%;
+    display: flex;  
+    justify-content: flex-start;
+    position: relative;
+}
+.flexH3P {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    line-height: 2rem;
+}
+.flexH3P p {
+    margin-bottom: 2rem;
+}
+
+#blockFour {
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+   
+}
+#blockFour h1 {
+    font-size: 4rem;
+    padding-bottom: 4%;
+}
+#blockFour p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+#blockFive {
+    display: flex;
+}
+#blockFive div img {
+    width: 80%;
+    margin-left: 15%;
+}
+#blockFive article {
+    width: 70%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.styleArticle h2 {
+    font-size: 4rem;
+    color: #dddddd;
+    margin-bottom: 10%;
+}
+.styleArticle h4 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 5% auto;
+}
+.styleArticle p {
+    line-height: 2rem;
+}
+
+#blockSix {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10% auto;
+}
+#blockSix div img {
+    width: 80%;
+    margin-left: 5%;
+}
+#blockSix article {
+    width: 70%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#blockSeven {
+    display: flex;
+    margin: 10% auto;
+}
+#blockSeven div img {
+    width: 80%;
+    margin-left: 5%;
+}
+#blockSeven article {
+    width: 70%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#blockEight {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#blockEight div img {
+    width: 80%;
+    margin-left: 5%;
+}
+#blockEight article {
+    width: 70%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#blockNine {
+    text-align: center;
+    margin: 5% auto 7%;
+}
+#blockNine h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+#blockNine p {
+    font-size: 1.3rem;
+}
+#blockNine input {
+    padding: 1rem 6rem;
+    margin-top: 2%;
+    border: 1px solid #FFF;
+    box-shadow: 0 0 2em #dddddd;
+    font-size: 1rem;
+    margin-bottom: 3%;
+}
+#blockNine a:hover {
+    background: linear-gradient(to right,#ff3571 0%, #3C30FF 80%);
+}
+#blockNine a {
+    margin-top: 5%;
+    text-decoration: none;
+    color: #FFF;
+    background: #ff3571;
+    padding: 15px 70px;
+}
+
+/* ---------------------Footer-------------------------- */
+footer {
+    margin: 0 0 1% 7%;
+}
+footer p ,.heart {
+    display: inline-block;
+}
+footer p {
+    position: absolute;
+}
+.heart img {
+    position: relative;
+    width: 50%;
+    left: 16rem;
+    animation-name: heartbeat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes heartbeat {
+    0%{
+        width: 45%;
+        }
+        50% {
+        width: 55%;
+        }
+        100% {
+        width: 47%;
+        }
+    } 
