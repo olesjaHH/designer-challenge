@@ -45,6 +45,7 @@ header {
     margin-left: 2.9rem;
     font-size: 1rem;
     font-weight: 300;
+    display: swap;
 }
 .designer {
     display: flex;
@@ -91,39 +92,45 @@ header {
       }
 /* ---------------------------Main-------------------------- */
 
+/* 1. Block */
 #pictureGallery img {
     width: 100%;
     height: 60vh;
 }
 
-.blockOne {
+#blockOne {
     display: flex;
     margin-top: 15%;
     margin-bottom: 10%;
 }
-.blockOne h1 {
+#blockOne h1 {
     width: 25%;
     font-size: 3.5rem;
     font-weight: 900;
     margin-left: 10%;
 }
-.blockOne span img {
+#blockOne span img {
     width: 3.5rem;
 }
-.blockOne p {
-    width: 40%;
-    line-height: 1.7rem;
+#blockOne p {
+    width: 42%;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
     margin-left: 10%;
     margin-top: 2%;
 }
 
-.blockTwo {
+/* 2. Block */
+
+#blockTwo {
     font-size: 2.5rem;
     width: 55%;
     margin-left: 10%;
 }
 
-.blockThree {
+/* 3. Block */
+
+#blockThree {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
@@ -145,12 +152,14 @@ header {
 .flexH3P {
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
+    margin-left: 3.5rem;
     line-height: 2rem;
 }
 .flexH3P p {
     margin-bottom: 2rem;
 }
+
+/* 4. Block */
 
 #blockFour {
     width: 60%;
@@ -168,6 +177,8 @@ header {
     font-size: 1.5rem;
     line-height: 2rem;
 }
+
+/* 5. Block */
 
 #blockFive {
     display: flex;
@@ -195,6 +206,8 @@ header {
     line-height: 2rem;
 }
 
+/* 6. Block */
+
 #blockSix {
     display: flex;
     flex-direction: row-reverse;
@@ -202,13 +215,14 @@ header {
 }
 #blockSix div img {
     width: 80%;
-    margin-left: 5%;
 }
 #blockSix article {
-    width: 70%;
+    width: 90%;
     margin-right: 10%;
-    margin-left: 5%;
+    margin-left: 7%;
 }
+
+/* 7. Block */
 
 #blockSeven {
     display: flex;
@@ -216,13 +230,15 @@ header {
 }
 #blockSeven div img {
     width: 80%;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 #blockSeven article {
     width: 70%;
     margin-right: 10%;
-    margin-left: 5%;
+    margin-left: 3%;
 }
+
+/* 8. Block */
 
 #blockEight {
     display: flex;
@@ -230,13 +246,13 @@ header {
 }
 #blockEight div img {
     width: 80%;
-    margin-left: 5%;
 }
 #blockEight article {
     width: 70%;
     margin-right: 10%;
-    margin-left: 5%;
+    margin-left: 7%;
 }
+ /* 9. Block */
 
 #blockNine {
     text-align: center;
@@ -249,6 +265,7 @@ header {
 }
 #blockNine p {
     font-size: 1.3rem;
+    margin-bottom: 2%;
 }
 #blockNine input {
     padding: 1rem 6rem;
@@ -271,18 +288,18 @@ header {
 
 /* ---------------------Footer-------------------------- */
 footer {
-    margin: 0 0 1% 7%;
+    margin: 0 0 3% 7%;
+    display: flex;
 }
 footer p ,.heart {
     display: inline-block;
 }
-footer p {
-    position: absolute;
+.heart {
+    margin-left: 1%;
 }
 .heart img {
     position: relative;
     width: 50%;
-    left: 16rem;
     animation-name: heartbeat;
     animation-duration: 2s;
     animation-iteration-count: infinite;
